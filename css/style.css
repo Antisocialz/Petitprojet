@@ -4,12 +4,10 @@ body {
         margin-right:auto !important;
         
 }
-html {
-    background: grey;
-}
+
 
 header {
-    background: crimson;
+    background: lightgray;
 }
 
 #logoprincipal {
@@ -18,7 +16,8 @@ header {
 }
 
 #services{
-    background: cyan;
+    background: lightgray;
+    height: 600px;
     
 }
 
@@ -43,7 +42,7 @@ section {
 }
 
 #portfolio {
-    background: brown;
+    background: lightgray;
     border-top: black 2px solid !important;
 }
 
@@ -53,10 +52,13 @@ section {
     font-size: 20px;
 }
 
-main {
-    
-    padding: 0 auto !important;
+#carousel {
+    width: 100%;
+    height: auto;
 }
 
+#portfoliotxt {
+    padding: 10px;
+}
 
  

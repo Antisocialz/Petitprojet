@@ -4,22 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
-    <link rel="stylesheet" href="css/style.css">
-    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
     <title>DM HTML</title>
 </head>
 <body>
 <div class="container-fluid">
 <!-- HEADER -->
-        <div class="row">
+        <div class="row ">
              <header class="col-12">
                  <div class="row">
                      <div id="logo" class="col-md-4">
             <img id="logoprincipal" src="./asset/img/Sprite_868_EB.png" alt="">
-                     </div>
-            <nav id ="nav" class="col-md-8 text-right" >
+                     </div> <br><br><br>
+                       <nav class="col text-center " aria-label="breadcrumb">
+                              <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#services">Services</a></li>
+                                <li class="breadcrumb-item"><a href="#">Library</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Data</li>
+                              </ol>
+                            </nav>
+            <!-- <nav id ="nav" class="col-md-8 text-right" >
                 <div>
                     <br>
                     <br>
@@ -29,26 +34,26 @@
                 <a href="#team">La Team</a>
                 <a href="#contact">Contact</a>
                 </div>
-            </nav>
+            </nav> -->
                  </div>
              </header>
         </div>
 <!-- MAIN -->
- <div class="row border-top border-dark">
-<main class="col-12">
+ <div class="row border-top border-dark" >
+<main class="col-12" style="margin-right: 0px;margin-left: 0px;">
     <!-- Carousel -->
-    <section id="carousel"  >
+    <section id="carousel"   >
              
             <div id="carouselExampleControls" class="carousel slide " data-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img src="./asset/img/slide1.jpg" class="d-block w-100 " alt="...">
+                        <img src="./asset/img/slide-placeholder-resize.jpg" class="d-block w-100  " alt="...">
                       </div>
                       <div class="carousel-item">
-                        <img src="./asset/img/slide2.jpg" class="d-block w-100" alt="...">
+                        <img src="./asset/img/slide-placeholder-resize.jpg" class="d-block w-100 " alt="...">
                       </div>
                       <div class="carousel-item">
-                        <img src="./asset/img/slide3.jpg" class="d-block w-100 " alt="...">
+                        <img src="./asset/img/slide-placeholder-resize.jpg" class="d-block w-100 " alt="...">
                       </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -62,32 +67,57 @@
                   </div>
     </section> 
    <!-- Services -->
-    <div class="row text-center" id="services">
-            <section class="col">
+    <div class="row  align-items-center text-center" id="services" >
+            <section class="col ">
                 <br>
-                <img class="rounded-circle" src="http://lorempixel.com/120/120/technics" alt="">
+                <img class="" src="./asset/img/Icone-services1.png" alt="">
                 <br><br>
                 <h5>Lorem ipsum dolor sit amet.</h5>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum dignissimos deleniti nihil officiis blanditiis eum. Error qui iusto, blanditiis accusamus beatae, rerum, odio minima aliquid optio aperiam ab! Nesciunt, vel.</p>
             </section>
             <section class="col ">
                 <br>
-                <img class="rounded-circle" src="http://lorempixel.com/120/120/transport" alt="">
+                <img class="" src="./asset/img/Icone-services2.png" alt="">
                 <br><br>
                 <h5>Lorem ipsum dolor sit amet.</h5>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, facilis ab optio perspiciatis placeat cum voluptate libero totam id mollitia eveniet recusandae similique doloremque quae excepturi accusamus aperiam, molestias repellendus.</p>
             </section>
             <section class="col">
                 <br>
-                <img class="rounded-circle" src="http://lorempixel.com/120/120/business" alt="">
+                <img class="" src="./asset/img/Icone-services3.png" alt="">
                 <br><br>
                 <h5>Lorem ipsum dolor sit amet.</h5>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ab ducimus numquam omnis minima sint earum, porro tempora? Quae a rem aliquid asperiores laboriosam qui non doloremque error quas. Culpa?</p>
             </section>
     </div>
     <!-- Team -->
-    <div id="team">
-    <div class="row text-center border-bottom border-dark ">
+    <div id="team" class="row text-center">
+            <div class="card col" style="width: 18rem;">
+                    <img src="./asset/img/placeholder-person.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    </div>
+                    
+                  </div>
+                  <div class="card col" style="width: 18rem;">
+                        <img src="./asset/img/placeholder-person.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                      </div>
+                      <div class="card col" style="width: 18rem;">
+                            <img src="./asset/img/placeholder-person.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            </div>
+                          </div>
+    <!-- <div class="row text-center border-bottom border-dark ">
         <section class="col"><img class="profile "src="http://lorempixel.com/400/250/animals" alt=""></section>
         <section class="col "><img class="profile"src="http://lorempixel.com/400/250/people" alt=""></section>
         <section class="col"><img class="profile "src="http://lorempixel.com/400/250/nightlife" alt=""></section>
@@ -108,17 +138,17 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis fugiat vero quos molestias iusto excepturi. Eos asperiores libero illum rerum incidunt.</p>
             </section>
         </div>
-    </div>
+    </div> -->
     </div>
 <!-- Portfolio -->
 <div id="portfolio" class="row text-center border-top border-dark">
     <section class="col">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio doloremque autem iste? Aperiam culpa cupiditate asperiores. Ullam, voluptatibus maxime corporis vero dolore quibusdam doloribus tempore incidunt odio neque, eius ipsum!
+        <p id="portfoliotxt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio doloremque autem iste? Aperiam culpa cupiditate asperiores. Ullam, voluptatibus maxime corporis vero dolore quibusdam doloribus tempore incidunt odio neque, eius ipsum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, impedit eveniet adipisci dicta sunt dolore voluptates veniam delectus, vel dolorum molestias, ipsum libero veritatis debitis. Repudiandae enim dicta corrupti fugit?
         Amet nemo assumenda natus voluptas ipsa repellendus velit sapiente distinctio, aliquam a id nisi tempore dolore culpa labore harum. Id laborum et culpa, qui magnam 
         Iure, esse harum maxime quisquam est vero, sapiente itaque natus eius? Soluta.</p>
     </section>
     <section class="col">
-        <img class="paysage" src="http://lorempixel.com/640/480/nature" alt="">
+        <img class="paysage" src="./asset/img/slide-placeholder.jpg" alt="">
     </section>
 </div>
     <!-- Contact --> 
@@ -166,7 +196,8 @@
 
 
 
-
+      
+      
 
 
 
