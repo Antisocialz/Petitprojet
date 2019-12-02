@@ -7,7 +7,7 @@ body {
 
 
 header {
-    background: lightgray;
+    background: rgb(170, 170, 170);
 }
 
 #logoprincipal {
@@ -16,7 +16,7 @@ header {
 }
 
 #services{
-    background: lightgray;
+    background: rgb(170, 170, 170);
     height: 600px;
     
 }
@@ -42,7 +42,7 @@ section {
 }
 
 #portfolio {
-    background: lightgray;
+    background: rgb(170, 170, 170);
     border-top: black 2px solid !important;
 }
 
